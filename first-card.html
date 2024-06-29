@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            width: 125%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .card {
+            width: 340px;
+            height: 363px;
+            background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=600);
+            border-radius: 27px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+
+        .card img {
+            width: 60%;
+            opacity: 0.8;
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+            border-radius: 0px;
+            margin-top: -23%;
+            margin-left: 8%;
+
+        }
+
+        p.code-like {
+            font-size: medium;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: transparent;
+            color: rgb(20, 138, 206);
+            padding: 2px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            writing-mode: vertical-rl;
+            transform: rotate(270deg) rotateY(10deg);
+            height: 100%;
+            margin-top: 33%;
+            margin-left: -26%;
+        }
+
+        p.signature {
+            font-size: medium;
+            color: #e4e7f3fb;
+            margin-top: 25%;
+            padding: 0%;
+            margin-bottom: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="content-wrapper">
+            <div class="card">
+                <p class="code-like">On my journey to become the best front-end developer, ready to create amazing user
+                    experiences and transform the web!</p>
+                <p class="signature">MigueljDev</p>
+                <img src="images/perfil1.png" alt="Imagen de ejemplo">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
